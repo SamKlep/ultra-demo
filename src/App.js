@@ -1,25 +1,26 @@
-import logo from './logo.svg';
-import './App.css';
+import { BrowserRouter as Router, Route } from 'react-router-dom'
+import './App.css'
+import Header from './components/Header'
+import HomeScreen from './screens/HomeScreen'
+import AboutScreen from './screens/AboutScreen'
+import ServicesScreen from './screens/ServicesScreen'
+import ContactScreen from './screens/ContactScreen'
+import Footer from './components/Footer'
+import Switch from 'react-bootstrap/esm/Switch'
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <Router>
+      <Header />
+      <Switch>
+        <Route path='/' component={HomeScreen} exact />
+        <Route path='/about' component={AboutScreen} exact />
+        <Route path='/services' component={ServicesScreen} exact />
+        <Route path='/contact' component={ContactScreen} exact />
+      </Switch>
+      <Footer />
+    </Router>
+  )
 }
 
-export default App;
+export default App
