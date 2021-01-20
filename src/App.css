@@ -1,0 +1,19 @@
+html,
+body {
+  width: auto !important;
+  overflow-x: hidden !important;
+}
+.main-jumbo {
+  background-image: url('./img/machine1.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+}
+
+.jumbo-quote {
+  background-image: url('./img/demo3-4-resize.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

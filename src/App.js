@@ -6,18 +6,16 @@ import AboutScreen from './screens/AboutScreen'
 import ServicesScreen from './screens/ServicesScreen'
 import ContactScreen from './screens/ContactScreen'
 import Footer from './components/Footer'
-import Switch from 'react-bootstrap/esm/Switch'
 
 function App() {
   return (
     <Router>
       <Header />
-      <Switch>
-        <Route path='/' component={HomeScreen} exact />
-        <Route path='/about' component={AboutScreen} exact />
-        <Route path='/services' component={ServicesScreen} exact />
-        <Route path='/contact' component={ContactScreen} exact />
-      </Switch>
+
+      <Route path='/' component={HomeScreen} exact />
+      <Route path='/about' component={AboutScreen} />
+      <Route path='/services' component={ServicesScreen} />
+      <Route path='/contact' component={ContactScreen} />
       <Footer />
     </Router>
   )
