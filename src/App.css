@@ -17,3 +17,37 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.carousel {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+.carousel img {
+  height: 500px;
+}
+
+@media (max-width: 800px) {
+  .carousel {
+    height: 500px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 700px) {
+  .carousel {
+    height: 400px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 500px) {
+  .carousel {
+    width: 400px;
+    height: 250px;
+    margin: auto;
+    overflow: hidden;
+  }
+}
