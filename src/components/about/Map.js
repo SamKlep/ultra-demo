@@ -31,7 +31,9 @@ class SimpleMap extends Component {
         </Container>
         <Jumbotron className='bg-white text-center' fluid>
           <Container>
-            <h1>Serving all of Southeast Texas and surrounding areas!</h1>
+            <h1 className='text-info'>
+              Serving all of Southeast Texas and surrounding areas!
+            </h1>
           </Container>
         </Jumbotron>
       </>
