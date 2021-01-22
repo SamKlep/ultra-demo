@@ -1,11 +1,11 @@
 import Main from '../components/contact/Main'
-import ContactForm from '../components/contact/ContactForm'
+import Content from '../components/contact/Content'
 
 const ContactScreen = () => {
   return (
     <div>
       <Main />
-      <ContactForm />
+      <Content />
     </div>
   )
 }
