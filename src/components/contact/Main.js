@@ -8,7 +8,7 @@ const Main = () => {
           <h1 className='display-4 text-light'>Contact</h1>
         </Container>
       </Jumbotron>
-      <Jumbotron className='bg-white' fluid>
+      <Jumbotron className='contact-content bg-white' fluid>
         <Container className='text-center '>
           <h1>Here for all of your Demolition & Excavation needs!</h1>
           <p className='lead'>

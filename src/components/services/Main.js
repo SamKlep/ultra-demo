@@ -6,7 +6,7 @@ const Main = () => {
     <div>
       <Jumbotron className='services-top bg-white display-4' fluid>
         <Container className='text-center'>
-          <h1>Services</h1>
+          <h1 className='display-4'>Services</h1>
         </Container>
       </Jumbotron>
     </div>

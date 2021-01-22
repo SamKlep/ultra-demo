@@ -5,10 +5,10 @@ import ContactInfo from './ContactInfo'
 const Content = () => {
   return (
     <div>
-      <Container>
+      <Container className='contact-container'>
         <Row>
           <Col className='text-center'>
-            <h1>Contact Us</h1>
+            <h1 className='contact-title'>Contact Us</h1>
           </Col>
         </Row>
         <Row>
