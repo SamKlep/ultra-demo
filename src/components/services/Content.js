@@ -8,14 +8,15 @@ import {
   Button,
   Card,
 } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Content = () => {
   return (
     <div>
       <Container>
         <Row>
-          <Col>
-            <Image className='text-center' src='/img/dirt1.jpg' fluid />
+          <Col className='text-center'>
+            <Image className=' services-img' src='/img/dirt1.jpg' fluid />
           </Col>
         </Row>
       </Container>
@@ -30,41 +31,59 @@ const Content = () => {
       <Container className='mt-5 mb-5'>
         <Row className='mt-5'>
           <Col>
-            <Image className='text-center' src='/img/dirt1.jpg' fluid />
+            <Image
+              className='text-center'
+              src='/img/machine2-services.jpg'
+              fluid
+            />
           </Col>
-          <Col>
+          <Col className='align-self-center text-center'>
             <h3>Economical</h3>
             <p>
               Our goal is to provide savings to our clients, in the most
               efficient and economical manner.
             </p>
-            <Button>Learn More</Button>
+            <Link to='/contact'>
+              <Button>Learn More</Button>
+            </Link>
           </Col>
         </Row>
         <Row className='mt-5'>
-          <Col>
+          <Col className='align-self-center text-center'>
             <h3>Committed</h3>
             <p>
               We are also committed to complete all projects within the timeline
               set with our clients.
             </p>
-            <Button>Learn More</Button>
+            <Link to='/contact'>
+              <Button>Learn More</Button>
+            </Link>
           </Col>
           <Col>
-            <Image className='text-center' src='/img/dirt1.jpg' fluid />
+            <Image
+              className='text-center'
+              src='/img/truck1-services.jpg'
+              fluid
+            />
           </Col>
         </Row>
         <Row className='mt-5'>
           <Col>
-            <Image className='text-center' src='/img/dirt1.jpg' fluid />
+            <Image
+              className='text-center'
+              src='/img/demo1-services.jpg'
+              fluid
+            />
           </Col>
-          <Col>
+          <Col className='align-self-center text-center'>
             <h3>Safety First</h3>
             <p>
               Ultra Demolition will always put safety as well as our clients
               interest first.
             </p>
-            <Button>Learn More</Button>
+            <Link to='/contact'>
+              <Button>Learn More</Button>
+            </Link>
           </Col>
         </Row>
         <br />
