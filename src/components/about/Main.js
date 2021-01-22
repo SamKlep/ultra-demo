@@ -4,7 +4,7 @@ import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
 const Main = () => {
   return (
     <div>
-      <Jumbotron>
+      <Jumbotron className='bg-white text-center'>
         <h1>About</h1>
       </Jumbotron>
       <Container>
