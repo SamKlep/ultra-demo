@@ -1,4 +1,5 @@
 import { Container, Row, Col } from 'react-bootstrap'
+import ImageSliderContainer from './ImageSliderContainer'
 
 const About = () => {
   return (
@@ -15,6 +16,9 @@ const About = () => {
               We are always dedicated and devoted to providing an exceptional
               experience every time.
             </p>
+          </Col>
+          <Col>
+            <ImageSliderContainer />
           </Col>
         </Row>
       </Container>

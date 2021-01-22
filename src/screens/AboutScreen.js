@@ -1,7 +1,11 @@
+import Main from '../components/about/Main'
+import PhotoGrid from '../components/about/PhotoGrid'
+
 const AboutScreen = () => {
   return (
     <div>
-      <h1>About</h1>
+      <Main />
+      <PhotoGrid />
     </div>
   )
 }

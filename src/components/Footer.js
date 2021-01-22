@@ -3,11 +3,7 @@ import { Container, Row, Col, Nav, Image } from 'react-bootstrap'
 const Footer = () => {
   return (
     <>
-      <Nav
-        variant='dark'
-        className='bg-secondary mt-5'
-        defaultActiveKey='/home'
-        as='ul'>
+      <Nav className='bg-white mt-5' defaultActiveKey='/home' as='ul'>
         <Container className='mt-5'>
           <Row>
             <Col className='text-center'>
