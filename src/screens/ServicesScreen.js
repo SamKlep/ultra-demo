@@ -1,7 +1,11 @@
+const { default: Main } = require('../components/services/Main')
+const { default: Content } = require('../components/services/Content')
+
 const ServicesScreen = () => {
   return (
     <div>
-      <h1>Services</h1>
+      <Main />
+      <Content />
     </div>
   )
 }
