@@ -5,7 +5,7 @@ const Main = () => {
   return (
     <div>
       <Jumbotron className='bg-white text-center'>
-        <h1>About</h1>
+        <h1 className='display-4'>About</h1>
       </Jumbotron>
       <Container>
         <Row>

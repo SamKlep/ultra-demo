@@ -1,4 +1,5 @@
 import { Container, Row, Col, Nav, Image } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
   return (
@@ -7,7 +8,9 @@ const Footer = () => {
         <Container className='mt-5'>
           <Row>
             <Col className='text-center'>
-              <Image className='mx-auto' src='img/ultrademo-logo.png' />
+              <Link to='/'>
+                <Image className='mx-auto' src='img/ultrademo-logo.png' />
+              </Link>
               <h6>2021 © </h6>
             </Col>
             <Col className='text-center'>

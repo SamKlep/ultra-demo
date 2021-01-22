@@ -1,7 +1,11 @@
+import Main from '../components/contact/Main'
+import ContactForm from '../components/contact/ContactForm'
+
 const ContactScreen = () => {
   return (
     <div>
-      <h1>Contact</h1>
+      <Main />
+      <ContactForm />
     </div>
   )
 }
