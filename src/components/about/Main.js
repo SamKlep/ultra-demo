@@ -4,19 +4,23 @@ import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
 const Main = () => {
   return (
     <div>
-      <Jumbotron className='bg-white text-center'>
+      <Jumbotron className='bg-white text-center about-container'>
         <h1 className='display-4'>About</h1>
       </Jumbotron>
       <Container>
         <Row>
           <Col>
             <h1>Ultra Demolition is a company that takes pride in our work.</h1>
-            <p>
+          </Col>
+        </Row>
+        <Row>
+          <Col className='about-content mx-auto' lg={6}>
+            <h4>
               We are committed to supplying superior results and are always
               dedicated and devoted to provide an exceptional experience every
               time.
-            </p>
-            <p>
+            </h4>
+            <p className='lead'>
               On all of our projects, Ultra Demolition performs all the
               demolition work with our own workforce. We employ only the highest
               of skilled experts whom are versed in all aspects of the

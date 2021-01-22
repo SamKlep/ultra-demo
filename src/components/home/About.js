@@ -6,7 +6,7 @@ const About = () => {
     <div>
       <Container className='about-container'>
         <Row>
-          <Col>
+          <Col className='align-self-center'>
             <h1>About Us</h1>
             <p className='lead'>
               Ultra Demolition is a company that takes pride in our work and we
@@ -17,7 +17,7 @@ const About = () => {
               experience every time.
             </p>
           </Col>
-          <Col>
+          <Col className='mx-auto'>
             <ImageSliderContainer />
           </Col>
         </Row>

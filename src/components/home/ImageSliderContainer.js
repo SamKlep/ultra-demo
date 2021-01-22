@@ -5,7 +5,7 @@ import img2 from '../../img/lot-empty.jpg'
 
 export default function App() {
   return (
-    <div className='App'>
+    <div className='text-center'>
       <div style={{ width: 700, height: 450 }}>
         <ImageSlider
           image1={img1}

@@ -16,7 +16,7 @@ class SimpleMap extends Component {
   render() {
     return (
       <>
-        <Container className='mt-5'>
+        <Container className='map-container mt-5'>
           <div
             style={{ height: '100vh', width: '100%', paddingBottom: '30px' }}>
             <GoogleMapReact
