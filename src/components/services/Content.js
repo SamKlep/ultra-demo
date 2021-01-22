@@ -16,11 +16,11 @@ const Content = () => {
       <Container>
         <Row>
           <Col className='text-center'>
-            <Image className=' services-img' src='/img/dirt1.jpg' fluid />
+            <Image className='services-img' src='/img/dirt1.jpg' fluid />
           </Col>
         </Row>
       </Container>
-      <Jumbotron className='bg-white' fluid>
+      <Jumbotron className='services-jumbo bg-white' fluid>
         <Container className='text-center'>
           <h1>
             Ultra Demolition is a company that takes pride in our work and we
@@ -29,7 +29,7 @@ const Content = () => {
         </Container>
       </Jumbotron>
       <Container className='mt-5 mb-5'>
-        <Row className='mt-5'>
+        <Row className='mt-5 service-card'>
           <Col>
             <Image
               className='text-center'
@@ -48,7 +48,7 @@ const Content = () => {
             </Link>
           </Col>
         </Row>
-        <Row className='mt-5'>
+        <Row className='mt-5 service-card'>
           <Col className='align-self-center text-center'>
             <h3>Committed</h3>
             <p>
@@ -67,7 +67,7 @@ const Content = () => {
             />
           </Col>
         </Row>
-        <Row className='mt-5'>
+        <Row className='mt-5 service-card'>
           <Col>
             <Image
               className='text-center'
@@ -88,7 +88,7 @@ const Content = () => {
         </Row>
         <br />
         <hr />
-        <Row className='mt-5'>
+        <Row className='mt-5 service-card'>
           <Col>
             <Card>
               <Card.Header>Quote</Card.Header>
