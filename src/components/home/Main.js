@@ -1,4 +1,5 @@
 import { Jumbotron, Container, Button } from 'react-bootstrap'
+import { Link } from 'react-router-dom'
 
 const Main = () => {
   return (
@@ -11,9 +12,11 @@ const Main = () => {
           <h4 className='mt-3'>
             Serving all of Southeast Texas and surrounding areas!
           </h4>
-          <Button className='mt-1' variant='info'>
-            Get a FREE Quote!
-          </Button>
+          <Link to='/contact'>
+            <Button className='mt-1' variant='info'>
+              Get a FREE Quote!
+            </Button>
+          </Link>
         </Container>
       </Jumbotron>
     </div>
