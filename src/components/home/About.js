@@ -4,7 +4,7 @@ import ImageSliderContainer from './ImageSliderContainer'
 const About = () => {
   return (
     <div>
-      <Container>
+      <Container className='about-container'>
         <Row>
           <Col>
             <h1>About Us</h1>

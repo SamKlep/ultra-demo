@@ -3,7 +3,7 @@ import { Container, Row, Col, Carousel } from 'react-bootstrap'
 const Services = () => {
   return (
     <div>
-      <Container>
+      <Container className='services-container'>
         <Row>
           <Col>
             <h1>Our Services</h1>
@@ -17,7 +17,7 @@ const Services = () => {
           </Col>
         </Row>
         <Row>
-          <Col>
+          <Col className='carousel-container'>
             <Carousel>
               <Carousel.Item>
                 <img

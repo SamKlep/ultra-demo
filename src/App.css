@@ -7,6 +7,8 @@ body {
 body {
   background-color: rgb(255, 255, 255);
 }
+
+/* Main */
 .main-jumbo {
   background-image: url('./img/machine1.jpg');
   background-position: center;
@@ -14,13 +16,17 @@ body {
   background-size: cover;
   height: 350px;
 }
-.contact-jumbo {
-  background-image: url('./img/dirt2.jpg');
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 350px;
-  opacity: 0.5;
+
+.about-container {
+  padding-top: 100px;
+}
+.whatwedo-container {
+  padding-top: 175px;
+  padding-bottom: 175px;
+}
+.services-container {
+  padding-top: 175px;
+  padding-bottom: 100px;
 }
 
 .jumbo-quote {
@@ -28,6 +34,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+.carousel-container {
+  padding-top: 50px;
 }
 
 .carousel {
@@ -45,6 +54,15 @@ body {
 }
 
 /* Contact */
+.contact-jumbo {
+  background-image: url('./img/dirt2.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  opacity: 0.5;
+}
+
 .contact-group {
   width: 85%;
 }

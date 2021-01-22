@@ -3,9 +3,9 @@ import { Container, Row, Col, Jumbotron } from 'react-bootstrap'
 const WeDo = () => {
   return (
     <div>
-      <Container>
+      <Container className='whatwedo-container'>
         <Row>
-          <Col>
+          <Col className='mx-auto text-center' lg={6}>
             <h1>What we Do</h1>
             <p className='lead'>
               Ultra Demolition is dedicated to providing the safest workplace
