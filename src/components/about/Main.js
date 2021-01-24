@@ -14,7 +14,7 @@ const Main = () => {
           </Col>
         </Row>
         <Row>
-          <Col className='about-content mx-auto' lg={6}>
+          <Col className='about-content mx-auto' lg={8}>
             <h4>
               We are committed to supplying superior results and are always
               dedicated and devoted to provide an exceptional experience every

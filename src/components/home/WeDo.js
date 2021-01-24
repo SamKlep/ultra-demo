@@ -5,7 +5,7 @@ const WeDo = () => {
     <div>
       <Container className='whatwedo-container'>
         <Row>
-          <Col className='mx-auto text-center' lg={6}>
+          <Col className='mx-auto text-center' lg={8}>
             <h1>What we Do</h1>
             <p className='lead'>
               Ultra Demolition is dedicated to providing the safest workplace
